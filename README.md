@@ -1,13 +1,4 @@
-# Bootstrap Wysihtml5 for Rails
-
-[![Gem Version](https://badge.fury.io/rb/bootstrap-wysihtml5-rails.png)](http://badge.fury.io/rb/bootstrap-wysihtml5-rails)
-
-[![endorse](https://api.coderwall.com/nerian/endorsecount.png)](https://coderwall.com/nerian)
-
-Bootstrap is a toolkit from Twitter designed to kickstart development of webapps and sites.
-It includes base CSS and HTML for typography, forms, buttons, tables, grids, navigation, and more.
-
-http://twitter.github.com/bootstrap/
+### This is a maintained fork of https://github.com/Nerian/bootstrap-wysihtml5-rails for Bootstrap 2
 
 Bootstrap Wysihtml5 is a plugin for Bootstrap designed by James Hollingworth. It provides a stylish wysiwyg editor for Bootstrap.
 
@@ -22,14 +13,7 @@ https://github.com/Nerian/bootstrap-wysihtml5-rails
 Include bootstrap-wysihtml5-rails in Gemfile;
 
 ``` ruby
-gem 'bootstrap-wysihtml5-rails'
-```
-
-or you can install from latest build;
-
-``` ruby
-gem 'bootstrap-wysihtml5-rails', :require => 'bootstrap-wysihtml5-rails',
-                              :git => 'git://github.com/Nerian/bootstrap-wysihtml5-rails.git'
+gem 'bootstrap-wysihtml5-rails', github: 'Papercloud/bootstrap-wysihtml5-rails'
 ```
 
 and run bundle install.
@@ -43,15 +27,11 @@ Bootstrap-wysihtml5 depends on jquery and bootstrap.
 app/assets/stylesheets/application.css
 ``` css
 *= require bootstrap-wysihtml5
-// or
-*= require bootstrap-wysihtml5/b3
 ```
 
 app/assets/javascripts/application.js
 ```javascript
 //= require bootstrap-wysihtml5
-// or
-//= require bootstrap-wysihtml5/b3
 
 
 You may include all locales like this:
